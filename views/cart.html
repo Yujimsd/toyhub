@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy Haven | Cart</title>
+    <link rel="icon" href="../assets/icons/favicon.svg">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/steps.css">
+    <link rel="stylesheet" href="../assets/css/cart.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+    <aside class="left-menu">
+        <div class="left-menu-top">
+            <a class="shop-logo" href="../index.html">Toy<span>Haven</span></a>
+            <button class="menu-btn" aria-label="Toggle menu">☰</button>
+        </div>
+        <nav class="nav-list">
+            <a href="../index.html"><span class="nav-pic">🏠</span>Home</a>
+            <a href="product.html"><span class="nav-pic">🧸</span>Products</a>
+            <a href="wishlist.html"><span class="nav-pic">💖</span>Wishlist</a>
+            <a href="cart.html"><span class="nav-pic">🛒</span>Cart <span class="cart-num">0</span></a>
+            <a href="feedback.html"><span class="nav-pic">💬</span>Feedback</a>
+        </nav>
+        <div class="left-menu-note"><strong>Toy Haven</strong>Simple toys, big imagination.</div>
+    </aside>
+
+
+    <div class="right-side">
+        <main>
+            <div class="big-box">
+                <section class="top-title">
+                    <span class="little-title">Your Inventory</span>
+                    <h1>Shopping Cart</h1>
+                </section>
+                <ol class="step-list">
+                    <li class="is-on"><span>1</span>Cart</li>
+                    <li class=""><span>2</span>Checkout</li>
+                    <li><span>3</span>Confirmation</li>
+                </ol>
+
+            
+                <div id="cart-stuff" class="cart-holder"></div>
+
+              
+                <div class="cart-bottom">
+                    <div class="cart-bottom-btns">
+                        <a class="btn other-btn" href="product.html">← Keep shopping</a>
+                        <button class="btn red-btn" onclick="emptyTheCart()">Clear Cart</button>
+                    </div>
+                    <div class="cart-bottom-nums">
+                        <div><span>Items</span><strong id="cart-subtotal">$0.00</strong></div>
+                        <div><span>Delivery</span><strong>Free</strong></div>
+                        <div class="cart-bottom-final"><span>Total</span><strong id="cart-final-total">$0.00</strong></div>
+                    </div>
+                    <button class="btn main-btn" onclick="goCheckout()">Checkout →</button>
+                </div>
+            </div>
+        </main>
+
+
+        <footer>
+            <div class="big-box foot-row">
+                <span class="foot-name">Toy <span>Haven</span></span>
+                <div class="foot-links">
+                    <a href="../index.html">Home</a><a href="product.html">Products</a>
+                    <a href="cart.html">Cart</a><a href="wishlist.html">Wishlist</a>
+                    <a href="feedback.html">Feedback &amp; FAQ</a>
+                </div>
+                <p>© 2026 Toy Haven</p>
+            </div>
+        </footer>
+    </div>
+</div>
+
+
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/cart.js"></script>
+</body>
+</html>

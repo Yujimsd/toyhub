@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy Haven | Products</title>
+    <link rel="icon" href="../assets/icons/favicon.svg">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/cards.css">
+    <link rel="stylesheet" href="../assets/css/products.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+
+    <aside class="left-menu">
+        <div class="left-menu-top">
+            <a class="shop-logo" href="../index.html">Toy<span>Haven</span></a>
+            <button class="menu-btn" aria-label="Toggle menu">☰</button>
+        </div>
+        <nav class="nav-list">
+            <a href="../index.html"><span class="nav-pic">🏠</span>Home</a>
+            <a href="product.html"><span class="nav-pic">🧸</span>Products</a>
+            <a href="wishlist.html"><span class="nav-pic">💖</span>Wishlist</a>
+            <a href="cart.html"><span class="nav-pic">🛒</span>Cart <span class="cart-num">0</span></a>
+            <a href="feedback.html"><span class="nav-pic">💬</span>Feedback</a>
+        </nav>
+        <div class="left-menu-note"><strong>Toy Haven</strong>Simple toys, big imagination.</div>
+    </aside>
+
+
+    <div class="right-side">
+        <main>
+            <div class="big-box">
+                <section class="top-title">
+                    <span class="little-title">Toy Collection</span>
+                    <h1>SHOP CATALOGUE</h1>
+                    <p>Search, sort or filter the collection.</p>
+                </section>
+
+           
+                <div class="search-bar">
+                    <input id="toy-search" class="search-input" placeholder="Search by product name...">
+                    <select id="toy-sort" aria-label="Sort products">
+                        <option value="featured">Sort: Featured</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="rating">Top Rated</option>
+                    </select>
+                </div>
+                <div class="filter-area">
+                    <div id="cat-buttons" class="cat-buttons"></div>
+                    <span id="how-many" class="how-many"></span>
+                </div>
+
+         
+                <div id="toy-grid" class="toy-grid"></div>
+            </div>
+        </main>
+
+
+        <footer>
+            <div class="big-box foot-row">
+                <span class="foot-name">Toy <span>Haven</span></span>
+                <div class="foot-links">
+                    <a href="../index.html">Home</a><a href="product.html">Products</a>
+                    <a href="cart.html">Cart</a><a href="wishlist.html">Wishlist</a>
+                    <a href="feedback.html">Feedback &amp; FAQ</a>
+                </div>
+                <p>© 2026 Toy Haven</p>
+            </div>
+        </footer>
+    </div>
+</div>
+
+
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/products.js"></script>
+</body>
+</html>

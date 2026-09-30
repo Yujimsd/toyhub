@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy Haven | Home</title>
+    <link rel="icon" href="assets/icons/favicon.svg">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/cards.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+    
+    <aside class="left-menu">
+        <div class="left-menu-top">
+            <a class="shop-logo" href="index.html">Toy<span>Haven</span></a>
+            <button class="menu-btn" aria-label="Toggle menu">☰</button>
+        </div>
+        <nav class="nav-list">
+            <a href="index.html"><span class="nav-pic">🏠</span>Home</a>
+            <a href="views/product.html"><span class="nav-pic">🧸</span>Products</a>
+            <a href="views/wishlist.html"><span class="nav-pic">💖</span>Wishlist</a>
+            <a href="views/cart.html"><span class="nav-pic">🛒</span>Cart <span class="cart-num">0</span></a>
+            <a href="views/feedback.html"><span class="nav-pic">💬</span>Feedback</a>
+        </nav>
+        <div class="left-menu-note"><strong>Toy Haven</strong>Quality toys, Great satisfaction.</div>
+    </aside>
+
+
+    <div class="right-side">
+        <main>
+
+            <section class="banner">
+                <div class="big-box">
+                    <div id="banner-box" class="banner-grid">
+                        <div class="banner-text">
+                            <span id="banner-category" class="little-title">Figurines</span>
+                            <h1 id="banner-title">Bring characters to life.</h1>
+                            <p id="banner-desc">Collect figures, toys and iconic cars.</p>
+                            <div class="banner-btns">
+                                <a class="btn main-btn" href="views/product.html">Shop Now →</a>
+                                <a class="btn other-btn" href="#cat-section">Browse Categories</a>
+                            </div>
+                            <div class="banner-small">Made for Professional collectors &amp; new comers.</div>
+                            <div id="banner-dots" class="banner-dots"></div>
+                        </div>
+                        <div class="banner-pic-area">
+                            <div class="banner-frame">
+                                <img id="banner-image" src="assets/images/image1.png" alt="Featured toy">
+                                <span id="banner-number" class="banner-number">01 / 04</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="cat-section" class="big-part">
+                <div class="big-box">
+                    <div class="part-title">
+                        <div><span class="little-title">Explore</span><h2>Shop by Category</h2></div>
+                    </div>
+                    <div class="cat-boxes">
+                        <a class="cat-box" href="views/product.html?category=Figurines">
+                            <img src="assets/images/image1.png" alt="">
+                            <span class="cat-name">Figurines</span><span class="cat-count" id="count-figurines"></span>
+                        </a>
+                        <a class="cat-box" href="views/product.html?category=Toys">
+                            <img src="assets/images/image3.png" alt="">
+                            <span class="cat-name">Toys</span><span class="cat-count" id="count-toys"></span>
+                        </a>
+                        <a class="cat-box" href="views/product.html?category=Board%20Games">
+                            <img src="assets/images/image5.png" alt="">
+                            <span class="cat-name">Board Games</span><span class="cat-count" id="count-boardgames"></span>
+                        </a>
+                        <a class="cat-box" href="views/product.html?category=Diecast%20Cars">
+                            <img src="assets/images/image7.png" alt="">
+                            <span class="cat-name">Diecast Cars</span><span class="cat-count" id="count-cars"></span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="big-part">
+                <div class="big-box">
+                    <div class="part-title">
+                        <div><span class="little-title">Handpicked</span><h2>Featured Toys</h2></div>
+                        <a class="part-link" href="views/product.html">View all →</a>
+                    </div>
+                    <div id="top-picks" class="top-picks-grid"></div>
+                </div>
+            </section>
+
+
+            <section class="big-part">
+                <div class="big-box">
+                    <div class="email-band">
+                        <div>
+                            <span class="little-title">Newsletter</span>
+                            <h2>Get toy drops</h2>
+                            <p>New arrivals and offers, straight to your inbox.</p>
+                        </div>
+                        <form id="email-form" class="email-form" novalidate>
+                            <input name="email" type="email" placeholder="you@example.com" required>
+                            <button class="btn main-btn">Join</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <footer>
+            <div class="big-box foot-row">
+                <span class="foot-name">Toy <span>Haven</span></span>
+                <div class="foot-links">
+                    <a href="index.html">Home</a><a href="views/product.html">Products</a>
+                    <a href="views/cart.html">Cart</a><a href="views/wishlist.html">Wishlist</a>
+                    <a href="views/feedback.html">Feedback &amp; FAQ</a>
+                </div>
+                <p>© 2026 Toy Haven</p>
+            </div>
+        </footer>
+    </div>
+</div>
+
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/home.js"></script>
+</body>
+</html>

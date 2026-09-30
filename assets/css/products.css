@@ -1,0 +1,39 @@
+
+.search-bar {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 22px 0 14px;
+}
+.search-input {
+    flex: 1;
+    min-width: 220px;
+}
+.search-bar select {
+    width: auto;
+    min-width: 190px;
+    cursor: pointer;
+}
+.filter-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 26px;
+}
+.cat-buttons {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.how-many {
+    color: var(--muted);
+    font-weight: 600;
+}
+.filter-btn.is-on {
+    color: #061114;
+    background: var(--cyan);
+    border-color: var(--cyan);
+    box-shadow: 0 0 16px rgba(57, 246, 228, 0.22);
+}

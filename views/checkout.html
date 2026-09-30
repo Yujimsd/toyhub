@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy Haven | Checkout</title>
+    <link rel="icon" href="../assets/icons/favicon.svg">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/steps.css">
+    <link rel="stylesheet" href="../assets/css/forms.css">
+    <link rel="stylesheet" href="../assets/css/checkout.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+  
+    <aside class="left-menu">
+        <div class="left-menu-top">
+            <a class="shop-logo" href="../index.html">Toy<span>Haven</span></a>
+            <button class="menu-btn" aria-label="Toggle menu">☰</button>
+        </div>
+        <nav class="nav-list">
+            <a href="../index.html"><span class="nav-pic">🏠</span>Home</a>
+            <a href="product.html"><span class="nav-pic">🧸</span>Products</a>
+            <a href="wishlist.html"><span class="nav-pic">💖</span>Wishlist</a>
+            <a href="cart.html"><span class="nav-pic">🛒</span>Cart <span class="cart-num">0</span></a>
+            <a href="feedback.html"><span class="nav-pic">💬</span>Feedback</a>
+        </nav>
+        <div class="left-menu-note"><strong>Toy Haven</strong>Simple toys, big imagination.</div>
+    </aside>
+
+  
+    <div class="right-side">
+        <main>
+            <div class="big-box">
+                <section class="top-title">
+                    <span class="little-title">Almost There</span>
+                    <h1>Checkout</h1>
+                </section>
+                <ol class="step-list">
+                    <li class="finished"><span>1</span>Cart</li>
+                    <li class="is-on"><span>2</span>Checkout</li>
+                    <li><span>3</span>Confirmation</li>
+                </ol>
+
+                <div id="checkout-msg" class="msg-box" style="display:none;margin-top:22px;"></div>
+
+                <div class="two-cols">
+                    <form id="checkout-form" class="form-box" novalidate>
+                        <div class="form-grid">
+                            <div class="form-part">
+                                <label>Full Name</label>
+                                <input name="name" required minlength="2">
+                                <div class="error-text"></div>
+                            </div>
+                            <div class="form-part">
+                                <label>Email</label>
+                                <input name="email" type="email" required>
+                                <div class="error-text"></div>
+                            </div>
+                            <div class="form-part wide">
+                                <label>Delivery Address</label>
+                                <textarea name="address" rows="4" required minlength="10"></textarea>
+                                <div class="error-text"></div>
+                            </div>
+                            <div class="form-part wide">
+                                <label>Payment Method</label>
+                                <label><input type="radio" name="payment" value="Card" required>Card (simulation)</label>
+                                <label><input type="radio" name="payment" value="Cash on Delivery">Cash on Delivery</label>
+                                <div class="error-text"></div>
+                            </div>
+                        </div>
+                        <button class="btn main-btn" style="margin-top:15px;">Confirm Order</button>
+                    </form>
+
+                    <aside class="form-box order-box">
+                        <h2>Order Summary</h2>
+                        <div id="order-list"></div>
+                        <div class="order-row order-total-row">
+                            <span>Total</span>
+                            <strong id="checkout-final">$0.00</strong>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </main>
+
+     
+        <footer>
+            <div class="big-box foot-row">
+                <span class="foot-name">Toy <span>Haven</span></span>
+                <div class="foot-links">
+                    <a href="../index.html">Home</a><a href="product.html">Products</a>
+                    <a href="cart.html">Cart</a><a href="wishlist.html">Wishlist</a>
+                    <a href="feedback.html">Feedback &amp; FAQ</a>
+                </div>
+                <p>© 2026 Toy Haven</p>
+            </div>
+        </footer>
+    </div>
+</div>
+
+
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/checkout.js"></script>
+</body>
+</html>

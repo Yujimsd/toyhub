@@ -1,0 +1,20 @@
+
+.status-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+.status-btn {
+    padding: 6px 2px;
+    border: 1px solid #29404d;
+    background: #09131d;
+    color: #8ea6b0;
+    border-radius: 2px;
+    font-size: 0.68rem;
+    cursor: pointer;
+}
+.status-btn.picked {
+    border-color: var(--cyan);
+    background: rgba(57, 246, 228, 0.08);
+    color: var(--cyan);
+}

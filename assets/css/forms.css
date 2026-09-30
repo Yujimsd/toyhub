@@ -1,0 +1,54 @@
+/* ===== forms.css =====
+   Panels, form fields and form messages. Used by: checkout, feedback.
+*/
+
+.form-box {
+    background: var(--card-bg);
+    border: 1px solid var(--card-line);
+    border-radius: 3px;
+    padding: 22px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+}
+.form-box h2 {
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: -0.04em;
+    margin-bottom: 15px;
+}
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.wide {
+    grid-column: 1/-1;
+}
+.form-part label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #c8dce3;
+}
+.error-text {
+    color: #ff80b9;
+    font-size: 0.8rem;
+    min-height: 18px;
+}
+.msg-box {
+    padding: 11px 13px;
+    border: 1px solid #34515d;
+    margin-bottom: 13px;
+}
+.bad-msg {
+    background: rgba(255, 63, 164, 0.07);
+    color: #ff9aca;
+    border-color: #783052;
+}
+.good-msg {
+    background: rgba(57, 246, 228, 0.06);
+    color: #7bffed;
+    border-color: #216b68;
+}
+
+@media(max-width:650px){
+    .form-grid{grid-template-columns:1fr}
+}

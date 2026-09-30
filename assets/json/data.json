@@ -1,0 +1,74 @@
+[
+  {
+    "ID": 1,
+    "name": "MIKU Digital Figure",
+    "category": "Figurines",
+    "price": 99.99,
+    "image": "assets/images/image1.png",
+    "rating": 4.8,
+    "featured": true
+  },
+  {
+    "ID": 2,
+    "name": "YoRHa No.2 Type B",
+    "category": "Figurines",
+    "price": 80.5,
+    "image": "assets/images/image2.png",
+    "rating": 4.6,
+    "featured": true
+  },
+  {
+    "ID": 3,
+    "name": "Shark Scale 1-60FB",
+    "category": "Toys",
+    "price": 24.99,
+    "image": "assets/images/image3.png",
+    "rating": 4.7,
+    "featured": true
+  },
+  {
+    "ID": 4,
+    "name": "Aero Pegasus 1-70LR",
+    "category": "Toys",
+    "price": 29.95,
+    "image": "assets/images/image4.png",
+    "rating": 4.5,
+    "featured": false
+  },
+  {
+    "ID": 5,
+    "name": "Nippon Zaibatsu",
+    "category": "Board Games",
+    "price": 32.0,
+    "image": "assets/images/image5.png",
+    "rating": 4.9,
+    "featured": true
+  },
+  {
+    "ID": 6,
+    "name": "Majima Kensetsu",
+    "category": "Board Games",
+    "price": 27.49,
+    "image": "assets/images/image6.png",
+    "rating": 4.4,
+    "featured": false
+  },
+  {
+    "ID": 7,
+    "name": "Miku GT AMG",
+    "category": "Diecast Cars",
+    "price": 127.99,
+    "image": "assets/images/image7.png",
+    "rating": 4.8,
+    "featured": true
+  },
+  {
+    "ID": 8,
+    "name": "Miku AMG: 2017 SPA24H",
+    "category": "Diecast Cars",
+    "price": 14.25,
+    "image": "assets/images/image8.png",
+    "rating": 4.6,
+    "featured": false
+  }
+]

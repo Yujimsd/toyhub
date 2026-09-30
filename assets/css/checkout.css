@@ -1,0 +1,58 @@
+
+input[type="radio"] {
+    width: auto;
+    margin-right: 8px;
+    accent-color: var(--cyan);
+}
+
+.two-cols {
+    display: grid;
+    grid-template-columns: 1.5fr 0.85fr;
+    gap: 24px;
+    padding-top: 22px;
+}
+
+.order-box {
+    position: sticky;
+    top: 24px;
+    align-self: start;
+}
+
+.order-box .btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.order-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 11px 0;
+    color: #a9bbc5;
+}
+
+.order-total-row {
+    border-top: 1px solid #31505b;
+    padding-top: 13px;
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: var(--white);
+}
+
+.order-total-row span:last-child, .order-total-row strong {
+    color: var(--cyan);
+}
+
+.form-part label:has(input[type="radio"]) {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.done-box {
+    text-align: center;
+    padding: 50px;
+}
+
+@media(max-width:900px){
+    .two-cols{grid-template-columns:1fr}
+    .order-box{position:static}
+}
