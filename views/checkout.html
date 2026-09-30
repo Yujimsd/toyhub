@@ -50,25 +50,24 @@
                     <form id="checkout-form" class="form-box" novalidate>
                         <div class="form-grid">
                             <div class="form-part">
-                                <label>Full Name</label>
-                                <label><input name="name" required minlength="2"></label>
+                                <label for="fname">Full Name</label>
+                                <input id="fname" name="name" required minlength="2">
                                 <div class="error-text"></div>
                             </div>
                             <div class="form-part">
-                                <label>Email</label>
-                                <label><input name="email" type="email" required></label>
-                                <input name="email" type="email" required>
+                                <label for="cemail">Email</label>
+                                <input id="cemail"  name="email" type="email" required>
                                 <div class="error-text"></div>
                             </div>
                             <div class="form-part wide">
-                                <label>Delivery Address</label>
-                                <label><textarea name="address" rows="4" required minlength="10"></textarea></label>
+                                <label for="delivery">Delivery Address</label>
+                                <textarea id="delivery" name="address" rows="4" required minlength="10"></textarea>
                                 <div class="error-text"></div>
                             </div>
                             <div class="form-part wide">
                                 <label>Payment Method</label>
-                                <label><input type="radio" name="payment" value="Card" required>Card (simulation)</label>
-                                <label><input type="radio" name="payment" value="Cash on Delivery">Cash on Delivery</label>
+                                <label for="paycard"><input id="paycard" type="radio" name="payment" value="Card" required>Card (simulation)</label>
+                                <label for="paycash"><input id="paycash" type="radio" name="payment" value="Cash on Delivery">Cash on Delivery</label>
                                 <div class="error-text"></div>
                             </div>
                         </div>
